@@ -2,9 +2,7 @@ import glob from "fast-glob";
 import * as path from "path";
 
 async function importBlog(blogFileNames: any) {
-  let { meta, default: component } = await import(
-    `src/app/blog/${blogFileNames}`
-  );
+  let { meta, default: component } = await import(`@/app/blog/${blogFileNames}`);
   return {
     slug: blogFileNames.replace(/(\/content)?\.mdx$/, ""),
     ...meta,
