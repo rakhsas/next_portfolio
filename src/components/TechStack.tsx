@@ -7,31 +7,25 @@ export const TechStack = () => {
   const stack = [
     {
       title: "Next.js",
-      src: "/images/logos/next.png",
+      src: "/images/logos/java.webp",
 
       className: "h-10 w-14",
     },
     {
       title: "AWS",
-      src: "/images/logos/aws.webp",
+      src: "/images/logos/spring-boot.webp",
 
       className: "h-10 w-10",
     },
     {
       title: "Figma",
-      src: "/images/logos/figma.png",
+      src: "/images/logos/angular.webp",
 
       className: "h-10 w-8",
     },
     {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
-    },
-    {
       title: "Node",
-      src: "/images/logos/node.png",
+      src: "/images/logos/docker.webp",
 
       className: "h-10 w-12",
     },

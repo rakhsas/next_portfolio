@@ -1,79 +1,56 @@
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "FT_TRANSCENDENCE",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: "/images/sidefolio-aceternity.png",
+      "A Web Application project designed to build a competitive online multiplayer game where players can play a game of pong against each other.",
+    thumbnail: "/images/ft_transcendence/lightMode.jpg",
     images: [
-      "/images/sidefolio-aceternity.png",
-      "/images/sidefolio-aceternity-2.png",
+      "/images/ft_transcendence/darkMode.jpg",
+      "/images/ft_transcendence/lightMode.jpg",
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    stack: ["React.TS", "NestJs", "Tailwindcss"],
+    slug: "ft_transcendence",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        Web Application project designed to build a competitive online multiplayer game where players can play a game of pong against each other.
+        The game is to be integrated into a fully featured web application which includes a public chat,
+        private messaging, with the option of video call, real-time notifications, and an administration interface.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
   {
     href: "https://algochurn.com",
-    title: "Algochurn",
+    title: "JobPilot",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: "/images/sidefolio-algochurn.png",
+      "Web Application project designed to build a job portal where users can search for jobs, apply for jobs, and post jobs.",
+    thumbnail: "/images/jobpilot/Home.jpg",
     images: [
-      "/images/sidefolio-algochurn.png",
-      "/images/sidefolio-algochurn-2.png",
+      "/images/jobpilot/Home.jpg",
+      "/images/jobpilot/Job-List.jpg",
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    stack: ["Java Spring Boot", "Angular", "Tailwindcss"],
+    slug: "JobPilot",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Web Application project designed to build a job portal where users can search for jobs, apply for jobs, and post jobs.
+          it also includes a chat feature where users can chat with each other and a feature where users can create a resume and download it in PDF format.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
   {
     href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    title: "Inception",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: "/images/sidefolio-moonbeam.png",
+    thumbnail: "/images/inception/inception.webp",
     images: [
-      "/images/sidefolio-moonbeam.png",
-      "/images/sidefolio-moonbeam-2.png",
+      "/images/inception/inception.webp",
+      "/images/inception/inception-structure.png",
     ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "moonbeam",
